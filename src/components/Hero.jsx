@@ -38,12 +38,13 @@ const Hero = () => {
 				scrollTrigger: {
 					trigger: "#hero",
 					start: "top top",
-					end: "end top",
+					end: "bottom top",
 					scrub: true,
 				},
 			})
 			.to(".right-leaf", { y: 200 }, 0)
-			.to(".left-leaf", { y: -200 }, 0);
+			.to(".left-leaf", { y: -200 }, 0)
+			.to(".arrow", { y: 100 }, 0);
 
 		//when top of vid reaches 50% of screen, animation starts
 		//first arg always targets elem and 2nd targtes screen
@@ -84,7 +85,7 @@ const Hero = () => {
 
 				<div className="body">
 					<div className="content">
-						<div className="space-y-5 hidden md:block">
+						<div className="space-y-5 hidden md:block 2xl:ml-20">
 							<p>Cool. Crisp. Classic.</p>
 							<p className="subtitle">
 								Sip the Spirit <br /> of Summer
