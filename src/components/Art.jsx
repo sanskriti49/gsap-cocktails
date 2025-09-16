@@ -41,7 +41,7 @@ const Art = () => {
 
 	return (
 		<div id="art">
-			<div className="container mx-auto h-full pt-20">
+			<div className="container mx-auto h-full pt-20 ">
 				<h2 className="will-fade">The ART</h2>
 
 				<div className="content">
@@ -78,7 +78,7 @@ const Art = () => {
 				<div className="masked-container">
 					<h2 className="will-fade">Sip-Worthy Perfection</h2>
 					<div id="masked-content">
-						<h3 className="mt-2">Made with Craft, Poured with Passion</h3>
+						<h3 className="">Made with Craft, Poured with Passion</h3>
 						<p>
 							This isn’t just a drink. It’s a carefully crafted moment made just
 							for you.
